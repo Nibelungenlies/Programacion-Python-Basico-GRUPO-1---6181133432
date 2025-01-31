@@ -12,7 +12,7 @@ print(lista)
 ultimo_numero = lista.pop(15)
 print(lista)
 print('El numero eliminado es: ',ultimo_numero)
-archivo = open('numeros.text', 'w')
+archivo = open('numeros.txt', 'w')
 print(archivo)
 print("Archivo 'numeros.txt' creado correctamente")
 with open("numeros.txt", "w") as archivo:
